@@ -27,13 +27,13 @@ namespace Global_Bank___Internal_System
             
             if (user_exist == true)
             {
-                MessageBox.Show("Esoooo");
+                MessageBox.Show("Ingreso exitoso");
                 principal_form_instance.Show();
-                this.Close();
+                //this.Close();
             }
             else
             {
-                MessageBox.Show("Está mamando, no existe");
+                MessageBox.Show("Usuario no encontrado");
             }
             
         }
