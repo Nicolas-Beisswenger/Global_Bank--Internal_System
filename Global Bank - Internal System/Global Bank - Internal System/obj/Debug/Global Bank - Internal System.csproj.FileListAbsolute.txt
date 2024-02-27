@@ -1,0 +1,11 @@
+C:\Users\Nicolas Beisswenger\Documents\Self Learning\C#\Proyectos\Global Bank - Internal System\Global Bank - Internal System\Global Bank - Internal System\bin\Debug\Global Bank - Internal System.exe.config
+C:\Users\Nicolas Beisswenger\Documents\Self Learning\C#\Proyectos\Global Bank - Internal System\Global Bank - Internal System\Global Bank - Internal System\bin\Debug\Global Bank - Internal System.exe
+C:\Users\Nicolas Beisswenger\Documents\Self Learning\C#\Proyectos\Global Bank - Internal System\Global Bank - Internal System\Global Bank - Internal System\bin\Debug\Global Bank - Internal System.pdb
+C:\Users\Nicolas Beisswenger\Documents\Self Learning\C#\Proyectos\Global Bank - Internal System\Global Bank - Internal System\Global Bank - Internal System\obj\Debug\Global Bank - Internal System.csproj.AssemblyReference.cache
+C:\Users\Nicolas Beisswenger\Documents\Self Learning\C#\Proyectos\Global Bank - Internal System\Global Bank - Internal System\Global Bank - Internal System\obj\Debug\Global Bank - Internal System.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nicolas Beisswenger\Documents\Self Learning\C#\Proyectos\Global Bank - Internal System\Global Bank - Internal System\Global Bank - Internal System\obj\Debug\Global_Bank___Internal_System.Properties.Resources.resources
+C:\Users\Nicolas Beisswenger\Documents\Self Learning\C#\Proyectos\Global Bank - Internal System\Global Bank - Internal System\Global Bank - Internal System\obj\Debug\Global Bank - Internal System.csproj.GenerateResource.cache
+C:\Users\Nicolas Beisswenger\Documents\Self Learning\C#\Proyectos\Global Bank - Internal System\Global Bank - Internal System\Global Bank - Internal System\obj\Debug\Global Bank - Internal System.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas Beisswenger\Documents\Self Learning\C#\Proyectos\Global Bank - Internal System\Global Bank - Internal System\Global Bank - Internal System\obj\Debug\Global Bank - Internal System.exe
+C:\Users\Nicolas Beisswenger\Documents\Self Learning\C#\Proyectos\Global Bank - Internal System\Global Bank - Internal System\Global Bank - Internal System\obj\Debug\Global Bank - Internal System.pdb
+C:\Users\Nicolas Beisswenger\Documents\Self Learning\C#\Proyectos\Global Bank - Internal System\Global Bank - Internal System\Global Bank - Internal System\obj\Debug\Global_Bank___Internal_System.login_form.resources
