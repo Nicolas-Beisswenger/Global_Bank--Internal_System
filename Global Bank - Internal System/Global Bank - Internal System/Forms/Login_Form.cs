@@ -27,9 +27,10 @@ namespace Global_Bank___Internal_System
             
             if (user_exist == true)
             {
-                MessageBox.Show("Ingreso exitoso");
-                principal_form_instance.Show();
-                //this.Close();
+                //MessageBox.Show("Ingreso exitoso");
+
+                this.DialogResult = DialogResult.OK;
+                this.Close();
             }
             else
             {
