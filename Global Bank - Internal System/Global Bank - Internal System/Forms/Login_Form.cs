@@ -12,36 +12,32 @@ namespace Global_Bank___Internal_System
 {
     public partial class Login_Form : Form
     {
+
         public Login_Form()
         {
             InitializeComponent();
         }
 
-        Database.Database_connection database_connection_instance = new Database.Database_connection();
-        Forms.Principal_Form principal_form_instance = new Forms.Principal_Form();
-        Forms.ForgotPassword_Form forgotpassword_form_instance = new Forms.ForgotPassword_Form();
-
-        private void login_button_login_Click(object sender, EventArgs e)
+        private void Login_Button_Login_Click(object sender, EventArgs e)
         {
-            bool user_exist = database_connection_instance.user_existence_verification(login_textbox_username.Text, login_textbox_password.Text);
-            
+            bool user_exist = Connections.Instances.database_connection_instance.login_user_existence_verification(Login_TextBox_UserId.Text, Login_TextBox_Password.Text);
             if (user_exist == true)
             {
-                //MessageBox.Show("Ingreso exitoso");
-
+                Connections.Instances.principal_form_instance.display_options();
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Usuario no encontrado");
-            }
-            
+                Login_TextBox_UserId.Text = "";
+                Login_TextBox_Password.Text = "";
+                MessageBox.Show("Incorrect information");
+            } 
         }
 
-        private void login_button_forgotpassword_Click(object sender, EventArgs e)
+        private void Login_Button_ForgotPassword_Click(object sender, EventArgs e)
         {
-            forgotpassword_form_instance.Show();
+            //forgotpassword_form_instance.Show();
             this.Close();
         }
     }

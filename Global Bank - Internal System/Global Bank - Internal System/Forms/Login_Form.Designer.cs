@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.login_label_username = new System.Windows.Forms.Label();
+            this.Login_Label_UserId = new System.Windows.Forms.Label();
             this.login_label_password = new System.Windows.Forms.Label();
-            this.login_textbox_username = new System.Windows.Forms.TextBox();
-            this.login_textbox_password = new System.Windows.Forms.TextBox();
-            this.login_button_login = new System.Windows.Forms.Button();
-            this.login_button_forgotpassword = new System.Windows.Forms.Button();
+            this.Login_TextBox_UserId = new System.Windows.Forms.TextBox();
+            this.Login_TextBox_Password = new System.Windows.Forms.TextBox();
+            this.Login_Button_Login = new System.Windows.Forms.Button();
+            this.Login_Button_ForgotPassword = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // login_label_username
+            // Login_Label_UserId
             // 
-            this.login_label_username.AutoSize = true;
-            this.login_label_username.Location = new System.Drawing.Point(188, 124);
-            this.login_label_username.Name = "login_label_username";
-            this.login_label_username.Size = new System.Drawing.Size(55, 13);
-            this.login_label_username.TabIndex = 0;
-            this.login_label_username.Text = "Username";
+            this.Login_Label_UserId.AutoSize = true;
+            this.Login_Label_UserId.Location = new System.Drawing.Point(188, 124);
+            this.Login_Label_UserId.Name = "Login_Label_UserId";
+            this.Login_Label_UserId.Size = new System.Drawing.Size(43, 13);
+            this.Login_Label_UserId.TabIndex = 0;
+            this.Login_Label_UserId.Text = "User ID";
             // 
             // login_label_password
             // 
@@ -54,52 +54,52 @@
             this.login_label_password.TabIndex = 1;
             this.login_label_password.Text = "Password";
             // 
-            // login_textbox_username
+            // Login_TextBox_UserId
             // 
-            this.login_textbox_username.Location = new System.Drawing.Point(250, 124);
-            this.login_textbox_username.Name = "login_textbox_username";
-            this.login_textbox_username.Size = new System.Drawing.Size(100, 20);
-            this.login_textbox_username.TabIndex = 2;
+            this.Login_TextBox_UserId.Location = new System.Drawing.Point(250, 124);
+            this.Login_TextBox_UserId.Name = "Login_TextBox_UserId";
+            this.Login_TextBox_UserId.Size = new System.Drawing.Size(100, 20);
+            this.Login_TextBox_UserId.TabIndex = 2;
             // 
-            // login_textbox_password
+            // Login_TextBox_Password
             // 
-            this.login_textbox_password.Location = new System.Drawing.Point(251, 194);
-            this.login_textbox_password.Name = "login_textbox_password";
-            this.login_textbox_password.Size = new System.Drawing.Size(100, 20);
-            this.login_textbox_password.TabIndex = 3;
+            this.Login_TextBox_Password.Location = new System.Drawing.Point(251, 194);
+            this.Login_TextBox_Password.Name = "Login_TextBox_Password";
+            this.Login_TextBox_Password.Size = new System.Drawing.Size(100, 20);
+            this.Login_TextBox_Password.TabIndex = 3;
             // 
-            // login_button_login
+            // Login_Button_Login
             // 
-            this.login_button_login.Location = new System.Drawing.Point(194, 247);
-            this.login_button_login.Name = "login_button_login";
-            this.login_button_login.Size = new System.Drawing.Size(156, 23);
-            this.login_button_login.TabIndex = 4;
-            this.login_button_login.Text = "Login";
-            this.login_button_login.UseVisualStyleBackColor = true;
-            this.login_button_login.Click += new System.EventHandler(this.login_button_login_Click);
+            this.Login_Button_Login.Location = new System.Drawing.Point(194, 247);
+            this.Login_Button_Login.Name = "Login_Button_Login";
+            this.Login_Button_Login.Size = new System.Drawing.Size(156, 23);
+            this.Login_Button_Login.TabIndex = 4;
+            this.Login_Button_Login.Text = "Login";
+            this.Login_Button_Login.UseVisualStyleBackColor = true;
+            this.Login_Button_Login.Click += new System.EventHandler(this.Login_Button_Login_Click);
             // 
-            // login_button_forgotpassword
+            // Login_Button_ForgotPassword
             // 
-            this.login_button_forgotpassword.Location = new System.Drawing.Point(194, 314);
-            this.login_button_forgotpassword.Name = "login_button_forgotpassword";
-            this.login_button_forgotpassword.Size = new System.Drawing.Size(157, 23);
-            this.login_button_forgotpassword.TabIndex = 5;
-            this.login_button_forgotpassword.Text = "Forgot password";
-            this.login_button_forgotpassword.UseVisualStyleBackColor = true;
-            this.login_button_forgotpassword.Click += new System.EventHandler(this.login_button_forgotpassword_Click);
+            this.Login_Button_ForgotPassword.Location = new System.Drawing.Point(194, 314);
+            this.Login_Button_ForgotPassword.Name = "Login_Button_ForgotPassword";
+            this.Login_Button_ForgotPassword.Size = new System.Drawing.Size(157, 23);
+            this.Login_Button_ForgotPassword.TabIndex = 5;
+            this.Login_Button_ForgotPassword.Text = "Forgot password";
+            this.Login_Button_ForgotPassword.UseVisualStyleBackColor = true;
+            this.Login_Button_ForgotPassword.Click += new System.EventHandler(this.Login_Button_ForgotPassword_Click);
             // 
-            // login_form
+            // Login_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.login_button_forgotpassword);
-            this.Controls.Add(this.login_button_login);
-            this.Controls.Add(this.login_textbox_password);
-            this.Controls.Add(this.login_textbox_username);
+            this.Controls.Add(this.Login_Button_ForgotPassword);
+            this.Controls.Add(this.Login_Button_Login);
+            this.Controls.Add(this.Login_TextBox_Password);
+            this.Controls.Add(this.Login_TextBox_UserId);
             this.Controls.Add(this.login_label_password);
-            this.Controls.Add(this.login_label_username);
-            this.Name = "login_form";
+            this.Controls.Add(this.Login_Label_UserId);
+            this.Name = "Login_Form";
             this.Text = "Global Bank - Login";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -108,12 +108,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label login_label_username;
+        private System.Windows.Forms.Label Login_Label_UserId;
         private System.Windows.Forms.Label login_label_password;
-        private System.Windows.Forms.TextBox login_textbox_username;
-        private System.Windows.Forms.TextBox login_textbox_password;
-        private System.Windows.Forms.Button login_button_login;
-        private System.Windows.Forms.Button login_button_forgotpassword;
+        private System.Windows.Forms.TextBox Login_TextBox_UserId;
+        private System.Windows.Forms.TextBox Login_TextBox_Password;
+        private System.Windows.Forms.Button Login_Button_Login;
+        private System.Windows.Forms.Button Login_Button_ForgotPassword;
     }
 }
 

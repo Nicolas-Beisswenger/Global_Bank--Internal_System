@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Database\Database_connection.cs" />
+    <Compile Include="Connections\Database_connection.cs" />
+    <Compile Include="Connections\Fast_Information.cs" />
+    <Compile Include="Connections\Instances.cs" />
     <Compile Include="Forms\ForgotPassword_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +97,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Instances_Hub\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
